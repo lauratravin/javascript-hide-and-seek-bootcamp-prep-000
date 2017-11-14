@@ -8,5 +8,6 @@ function getFirstSelector(selector){
 // }
 
 function nestedTarget(value){
-  return document.querySelector('nested ${value}')
+  var class0 = '#nested';
+  return document.querySelector('${class0} ${value}')
 }
