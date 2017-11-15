@@ -17,8 +17,6 @@ function increaseRankBy(n){
 
 function deepestChild(){
    const list = document.querySelectorAll('div#grand-node');
-
-//  return (list[0].children[0].children[0].children[0].innerHTML).trim(); //complicate one.
-    return list[0].children[0].children[0].children[0].children[0];
-//    document.querySelector('#grand-node div div div div');  //MOCHA ANSWER
+//    return list[0].children[0].children[0].children[0].children[0];
+   return  document.querySelector('#grand-node div div div div');  //MOCHA ANSWER
 }
