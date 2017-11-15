@@ -19,5 +19,5 @@ function deepestChild(){
    const list = document.querySelectorAll('div#grand-node');
 
   //  return (list[0].children[0].children[0].children[0].innerHTML).trim(); //complicate one.
-    document.querySelector('#grand-node div div div div')  //easy answer I guess
+    document.querySelector('#grand-node div div div div').innerHTML;  //easy answer I guess
 }
